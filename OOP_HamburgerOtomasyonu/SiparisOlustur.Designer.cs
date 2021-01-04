@@ -208,6 +208,7 @@ namespace OOP_HamburgerOtomasyonu
             this.btnTamamla.TabIndex = 6;
             this.btnTamamla.Text = "Siparişi Tamamla";
             this.btnTamamla.UseVisualStyleBackColor = true;
+            this.btnTamamla.Click += new System.EventHandler(this.btnTamamla_Click);
             // 
             // SiparisOlustur
             // 

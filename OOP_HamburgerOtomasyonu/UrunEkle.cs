@@ -20,7 +20,7 @@ namespace OOP_HamburgerOtomasyonu
         private void btnKaydet_Click(object sender, EventArgs e)
         {
             Hamburger hamburger = new Hamburger();
-            hamburger.MenuAd = txtMenu.Text;
+            hamburger.Ad = txtMenu.Text;
             hamburger.Fiyat = nudFiyat.Value;
             Hamburger.Hamburgerler.Add(hamburger);
         }

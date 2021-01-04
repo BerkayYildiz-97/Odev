@@ -8,8 +8,8 @@ namespace OOP_HamburgerOtomasyonu
 {
     public enum Boyut
     {
-        küçük,
+        kucuk,
         orta,
-        büyük
+        buyuk
     }
 }

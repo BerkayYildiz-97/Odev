@@ -20,7 +20,7 @@ namespace OOP_HamburgerOtomasyonu
         private void btnEkstraKaydet_Click(object sender, EventArgs e)
         {
             Ekstralar ekstralar = new Ekstralar();
-            ekstralar.EkstraAd = txtEkstra.Text;
+            ekstralar.Ad = txtEkstra.Text;
             ekstralar.Fiyat = nudEkstraFiyat.Value;
             Ekstralar.EkstraListesi.Add(ekstralar);
         }

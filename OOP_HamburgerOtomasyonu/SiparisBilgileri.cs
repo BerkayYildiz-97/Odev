@@ -16,5 +16,13 @@ namespace OOP_HamburgerOtomasyonu
         {
             InitializeComponent();
         }
+
+        private void SiparisBilgileri_Load(object sender, EventArgs e)
+        {
+            lblCiro.Text = Siparis.Ciro.ToString();
+            lblSiparisSayisi.Text = Siparis.ToplamSiparisSayisi.ToString();
+            label2.Text = Siparis.SatilanUrunAdedi.ToString();
+            label1.Text = Siparis.ExtraMalzemeGeliri.ToString();
+        }
     }
 }

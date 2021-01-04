@@ -8,12 +8,17 @@ namespace OOP_HamburgerOtomasyonu
 {
     public class Hamburger:Urun
     {
-        public string MenuAd { get; set; }
-        public static List<Hamburger> Hamburgerler = new List<Hamburger>();
+        public Boyut Boyut { get; set; }
+        public static List<Hamburger> Hamburgerler = new List<Hamburger>()
+        {
+            new Hamburger{Ad="King Chicken",Fiyat=15},
+            new Hamburger{Ad="Big king",Fiyat=18},
+            new Hamburger{Ad="Whooper",Fiyat=20}
+        };
 
         public override string ToString()
         {
-            return MenuAd;
+            return Ad;
         }
     }
 }

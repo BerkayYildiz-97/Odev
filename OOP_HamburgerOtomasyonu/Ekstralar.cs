@@ -8,7 +8,16 @@ namespace OOP_HamburgerOtomasyonu
 {
     public class Ekstralar:Urun
     {
-        public string EkstraAd { get; set; }
-        public static List<Ekstralar> EkstraListesi = new List<Ekstralar>();
+
+        public static List<Ekstralar> EkstraListesi = new List<Ekstralar>()
+        {
+            new Ekstralar{Ad="Ranch",Fiyat=1},
+            new Ekstralar{Ad="Barbekü sos",Fiyat=1}
+        };
+
+        public override string ToString()
+        {
+            return Ad;
+        }
     }
 }
